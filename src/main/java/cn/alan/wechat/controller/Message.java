@@ -1,7 +1,7 @@
-package cn.alan.wechat.Controller;
+package cn.alan.wechat.controller;
 
 /**
- * @auther 杨亚龙
+ * @author 杨亚龙
  * @date 2020/3/22 13:13
  */
 public class Message {

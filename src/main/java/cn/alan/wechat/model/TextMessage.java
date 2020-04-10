@@ -1,6 +1,6 @@
-package cn.alan.wechat.Model;
+package cn.alan.wechat.model;
 
-import cn.alan.wechat.Model.base.BaseMessage;
+import cn.alan.wechat.model.base.BaseMessage;
 
 /**
  * 文本消息
@@ -18,4 +18,10 @@ public class TextMessage extends BaseMessage {
         Content = content;
     }
 
+    @Override
+    public String toString() {
+        return "TextMessage{" +
+                "Content='" + Content + '\'' +
+                '}';
+    }
 }

@@ -1,6 +1,6 @@
 package cn.alan.wechat.utill;
 
-import cn.alan.wechat.Model.TextMessage;
+import cn.alan.wechat.model.TextMessage;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.core.util.QuickWriter;
 import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @auther 杨亚龙
+ * @author 杨亚龙
  * @date 2020/3/22 13:10
  */
 public class MessageUtil {

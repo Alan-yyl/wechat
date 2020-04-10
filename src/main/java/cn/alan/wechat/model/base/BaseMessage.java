@@ -1,9 +1,9 @@
-package cn.alan.wechat.Model.base;
+package cn.alan.wechat.model.base;
 
 /**
  * 定义消息的基本属性
  *
- * @auther 杨亚龙
+ * @author 杨亚龙
  * @date 2020/3/22 13:35
  */
 public class BaseMessage {

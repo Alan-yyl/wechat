@@ -3,7 +3,7 @@ package cn.alan.wechat.utill;
 import java.util.Arrays;
 
 /**
- * @auther 杨亚龙
+ * @author 杨亚龙
  * @date 2020/3/22 1:18
  */
 public class CheckUtil {

@@ -1,6 +1,6 @@
-package cn.alan.wechat.Controller;
+package cn.alan.wechat.service;
 
-import cn.alan.wechat.Model.AccessToken;
+import cn.alan.wechat.model.AccessToken;
 import cn.alan.wechat.utill.NetManagerUtil;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * 该类用于获取access_token
  *
- * @auther 杨亚龙
+ * @author 杨亚龙
  * @date 2020/4/1 19:18
  */
 public class WxService {

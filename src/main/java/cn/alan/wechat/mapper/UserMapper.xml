@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.alan.wechat.mapper.UserMapper">
+    <insert id="register">
+        insert into userInfo(openID,distributionCode) values (#{openID},#{distributionCode})
+    </insert>
+
+    <select id="findByOpenID" resultType="cn.alan.wechat.model.UserInfo">
+        select * from userInfo where openID=#{openID}
+    </select>
+</mapper>

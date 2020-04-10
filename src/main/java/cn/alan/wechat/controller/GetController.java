@@ -1,4 +1,4 @@
-package cn.alan.wechat.Controller;
+package cn.alan.wechat.controller;
 
 import cn.alan.wechat.utill.CheckUtil;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 
 /**
- * @auther 杨亚龙
+ * @author 杨亚龙
  * @date 2020/3/22 1:15
  */
 @RestController
