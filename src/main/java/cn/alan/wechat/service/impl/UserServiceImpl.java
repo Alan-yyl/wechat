@@ -34,9 +34,9 @@ public class UserServiceImpl extends BaseServiceImpl<UserInfo> implements UserSe
     }
 
     /**
-     * 生成分销码
+     * 生成邀请码
      * @param openID 用户的openID
-     * @param time 用户第几次获取分销码（用于解决分销码冲突）
+     * @param time 用户第几次获取邀请码（用于解决邀请码冲突）
      * @return
      */
     private String generateDistribution(String openID){

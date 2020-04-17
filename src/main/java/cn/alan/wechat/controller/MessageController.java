@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public class MessageController {
     public static String processMessage(Map<String, String> map) {
-        if (map.get("MsgType").equals(MessageUtil.REQ_MESSAGE_TYPE_TEXT)||map.get("Event").equals("subscribe")||map.get("EventKey").equals("分销码KEY")) {
+        if (map.get("MsgType").equals(MessageUtil.REQ_MESSAGE_TYPE_TEXT)||map.get("Event").equals("subscribe")||map.get("EventKey").equals("邀请码KEY")||map.get("EventKey").equals("联系我们KEY")) {
             //普通文本消息
             TextMessage txtmsg = new TextMessage();
             txtmsg.setToUserName(map.get("FromUserName"));
@@ -29,5 +29,4 @@ public class MessageController {
             return "";
         }
     }
-
 }
